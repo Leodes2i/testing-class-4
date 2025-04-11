@@ -1,0 +1,7 @@
+mkdir Leonard
+cd Leonard
+echo "Hello, this is my file" > info.txt
+cd ..
+git add yourname/
+git commit -m "Added my personal folder and file"
+git push   # or git push -u origin branch-name
